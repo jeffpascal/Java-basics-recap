@@ -8,22 +8,22 @@ import java.util.List;
 public class BasicStream {
 	public static void main(String[] args) {
 		
-		List<Integer> list = Arrays.asList(3,1,2,3,1,2);
+		List<Number> list = Arrays.asList(3,1,2,3,1,2);
 		System.out.println(sum(list));
 		System.out.println(count(list));
 		//System.out.println(order(list));
 	}
 
-	private static long count(List<Integer> list) {
+	private static long count(List<Number> list) {
 		return list.stream().count();
 	}
 
-	private static int sum(List<Integer> list) {
+	private static int sum(List<Number> list) {
 		
 		return 
 				//convert the list into a stream
 				list.stream()
-				//map the values of the stream in int
+				//map the stream to int, which has the .sum method for easy adding
 				.mapToInt(Number::intValue)
 				//call the sum method
 				.sum();
