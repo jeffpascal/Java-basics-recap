@@ -13,7 +13,7 @@ public class WildCards {
 		//for each object o   -> will execute the acton of printing of o
 		stuff.forEach((Object o) -> System.out.println(o));
 		//wont work
-		stuff.add();
+		//stuff.add();
 		
 	}
 }
