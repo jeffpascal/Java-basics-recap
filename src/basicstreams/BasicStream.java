@@ -5,12 +5,21 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+
 public class BasicStream {
+	
+	private static void printMe(int a) {
+		System.out.println("a" + a);
+	}
+	
 	public static void main(String[] args) {
 		
 		List<Number> list = Arrays.asList(3,1,2,3,1,2);
 		System.out.println(sum(list));
 		System.out.println(count(list));
+		
+		list.stream().forEach(System.out::println);
+		
 		//System.out.println(order(list));
 	}
 
