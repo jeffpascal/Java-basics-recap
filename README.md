@@ -11,6 +11,13 @@ List<? extends Number>
 in the method, you can use all methods in Number class also List class
 - comparatorexample package <? super Number> For example comparator. You are allowed to compare Numbers, but also superclass of Number like Object
 
+# Exceptions
+- Unchecked exceptions are the ones that are descendants of RuntimeException class. 
+- Unchecked exception means that it does not require a try catch block
+- Checked exceptions require a try/catch block or throws
+- Exceptions get printed on standard error while output is on standard out. System.err.println()
+- Multiple catch block was added in java 7  catch(ExceptionNoFound1 | ExceptionFoundNot2 e)
+
 # Default methods allow you to put a method in an existing interface and provide an implementation
 
 # Tips:
