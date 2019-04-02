@@ -11,6 +11,13 @@ List<? extends Number>
 in the method, you can use all methods in Number class also List class
 - comparatorexample package <? super Number> For example comparator. You are allowed to compare Numbers, but also superclass of Number like Object
 
+# New IO
+- Paths class has 2 methods .get(String) where you specify a path
+- Files.createFiles (Paths.get("sub1", "sub2","sub3","myfile.txt")) will create myfile.txt at sub1/sub2/sub3
+- Files.createDirectories(Paths.get("sub1", "sub2","sub3")); will create sub1/sub2/sub3 folders
+- boolean deleted = Files.deleteIfExists(Paths.get("sub1", "sub2","sub3","myfile.txt")); deletes myfile.txt at sub1/sub2/sub3
+- Path dataFile = sourceDir.resolve("file.txt"); adds file.txt at the path
+
 # Exceptions
 - Unchecked exceptions are the ones that are descendants of RuntimeException class. 
 - Unchecked exception means that it does not require a try catch block
