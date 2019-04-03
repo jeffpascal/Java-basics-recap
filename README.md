@@ -25,6 +25,12 @@ in the method, you can use all methods in Number class also List class
 - Exceptions get printed on standard error while output is on standard out. System.err.println()
 - Multiple catch block was added in java 7  catch(ExceptionNoFound1 | ExceptionFoundNot2 e)
 
+
+# Threads
+- Executor are the highest level. you Provide threads and it caches starts/stops them
+
+# Callable interface in order to set up a series of threads to execute that return something at a later date
+
 # Default methods allow you to put a method in an existing interface and provide an implementation
 
 # Tips:
