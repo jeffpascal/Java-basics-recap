@@ -35,3 +35,23 @@ in the method, you can use all methods in Number class also List class
 
 # Tips:
 - When using a new class, check the API documentation to get familiarised with the methods it contains
+
+## Private, Default, Protected
+
+- Private anywhere inside the top level curly braces( even in subclasses)
+- Protected anywhere in the same package and from any sub-class that's accessing its own type
+- public
+- default
+
+```
+package a;
+class Parent
+  protected x; //can be used anywhere in Parent
+  
+package b;
+  class Child extends Parent
+  this.x; yes
+  
+  do stuff(Parent p)
+    p.x; doesnt work
+ ```
