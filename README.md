@@ -56,5 +56,5 @@ package b;
     p.x; doesnt work
  ```
  
- ### When overriding, chaning visibility to something smaller (form public to private) it won't work. Protected is more visible than Default
+ ### When overriding, chaning visibility to something smaller (form public to private) it won't work. Protected is less visible than Default
  
