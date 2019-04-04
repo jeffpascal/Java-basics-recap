@@ -41,7 +41,7 @@ in the method, you can use all methods in Number class also List class
 - Private anywhere inside the top level curly braces( even in subclasses)
 - Protected anywhere in the same package and from any sub-class that's accessing its own type
 - public
-- default
+- default in same package
 
 ```
 package a;
@@ -55,3 +55,5 @@ package b;
   do stuff(Parent p)
     p.x; doesnt work
  ```
+ 
+ 
