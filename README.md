@@ -58,3 +58,5 @@ package b;
  
  ### When overriding, chaning visibility to something smaller (form public to private) it won't work. Protected is less visible than Default
  
+TOLEARN: Java swing
+ - interface making in java
