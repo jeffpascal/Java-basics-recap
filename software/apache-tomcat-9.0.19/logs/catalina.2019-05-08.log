@@ -1,0 +1,42 @@
+08-May-2019 11:46:56.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.19
+08-May-2019 11:46:56.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2019 14:22:48 UTC
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.19.0
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-11.0.2+9
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            AdoptOpenJDK
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\conf\logging.properties
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\temp
+08-May-2019 11:46:56.423 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\AdoptOpenJDK\jdk-11.0.2+9\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python27\;C:\Python27\Scripts;C:\Program Files\AdoptOpenJDK\jdk-11.0.2+9\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.2+9-jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\JeanPascal\AppData\Local\Microsoft\WindowsApps;C:\Users\JeanPascal\AppData\Roaming\npm;C:\Users\JeanPascal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JeanPascal\AppData\Local\Box\Box Edit\;.]
+08-May-2019 11:46:56.516 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-May-2019 11:46:56.925 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-May-2019 11:46:56.941 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,256] milliseconds
+08-May-2019 11:46:57.024 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-May-2019 11:46:57.024 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+08-May-2019 11:46:57.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\docs]
+08-May-2019 11:46:57.634 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [236] milliseconds.
+08-May-2019 11:46:57.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\docs] has finished in [626] ms
+08-May-2019 11:46:57.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\examples]
+08-May-2019 11:46:59.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\examples] has finished in [1,338] ms
+08-May-2019 11:46:59.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\host-manager]
+08-May-2019 11:46:59.074 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\host-manager] has finished in [60] ms
+08-May-2019 11:46:59.090 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\manager]
+08-May-2019 11:46:59.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\manager] has finished in [65] ms
+08-May-2019 11:46:59.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\ROOT]
+08-May-2019 11:46:59.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\JeanPascal\git\Java-basics-recap\software\apache-tomcat-9.0.19\webapps\ROOT] has finished in [54] ms
+08-May-2019 11:46:59.209 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-May-2019 11:46:59.225 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-May-2019 11:46:59.243 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2,304] milliseconds
