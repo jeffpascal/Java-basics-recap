@@ -1,5 +1,7 @@
 TODO
 - continue course
+- learn about concurrency
+- learn about networking
 
 # Java-basics-recap
 A strong foundation is what makes progress easier and higher goals achievable
