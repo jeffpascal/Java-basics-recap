@@ -3,6 +3,7 @@ TODO
 - learn about concurrency
 - learn about networking
 - make a project
+- boostrap and thymeleaf
 
 # Java-basics-recap
 A strong foundation is what makes progress easier and higher goals achievable
