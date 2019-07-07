@@ -45,19 +45,21 @@ in the method, you can use all methods in Number class also List class
 
 - For some operating systems, threads of equal priority are time-sliced automatically in round-robin fashion. For other types of operating systems, threads of equal priority must voluntarily yield control to their peers. If they don’t, the other threads will not run.
 
+
+
 ### Syncronization
 - you must prevent one thread from writing data while another thread is in the middle of reading it
 - The monitor is a control mechanism first defined by C.A.R. Hoare. You can think of a monitor as a very small box that can hold only one thread. Once a thread enters a monitor, all other threads must wait until that thread exits the monitor. In this way, a monitor can be used to protect a shared asset from being manipulated by more than one thread at a time.
 - In Java, there is no class “Monitor”; instead, each object has its own implicit monitor that is automatically entered when one of the object’s synchronized methods is called. Once a thread is inside a synchronized method, no other thread can call any other synchronized method on the same object. This enables you to write very clear and concise multithreaded code, because synchronization support is built into the language.
+- Java provides a clean, low-cost way for two or more threads to talk to each other, via calls to predefined methods that all objects have. Java’s messaging system allows a thread to enter a synchronized method on an object, and then wait there until some other thread explicitly notifies it to come out.
 
 
+  - Callable interface in order to set up a series of threads to execute that return something at a later date
 
-- Callable interface in order to set up a series of threads to execute that return something at a later date
+  - Default methods allow you to put a method in an existing interface and provide an implementation
 
-- Default methods allow you to put a method in an existing interface and provide an implementation
-
-- Tips:
-- When using a new class, check the API documentation to get familiarised with the methods it contains
+  - Tips:
+    - When using a new class, check the API documentation to get familiarised with the methods it contains
 
 ## Private, Default, Protected
 
