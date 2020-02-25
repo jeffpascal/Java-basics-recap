@@ -8,6 +8,29 @@ TODO
 # Java-basics-recap
 A strong foundation is what makes progress easier and higher goals achievable
 
+# Interaces
+
+- An interface is a set of requirements for classes
+- Class can choose to conform to one or more interfaces
+- Interface is not a class
+- Service provider promises caller: "If your class conforms to a particular interface, then i'll perform the service"
+- Arrays.sort sorts arrays if element class conforms to the Comparable interface
+- Interface definition: 
+  
+```java
+public interface Comparable<T>{
+  int compareTo(T other);
+}
+```
+- Conforming class must provide compareTo method
+- If your class does not conform to Comparable interface Arrays.sort will not work
+
+- Since Java 8 you can add static methods in interfaces
+- You can put methods in interfaces
+- A default method can call an abstract method
+- Interfaces clash. If an incerface provides a default method and anohter interface provides the same one (default or not), your must resolve the conflict
+- 
+
 # basicstreams package
 - BasicStream.java contains an example of a basic stream using lambda to add the values of a list. <understanded>
 - WildCards.java contains an example of an unbound Wildcard. You can see that creating it with any type of object works fine but adding to it is not possible.
