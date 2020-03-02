@@ -29,7 +29,11 @@ public interface Comparable<T>{
 - You can put methods in interfaces
 - A default method can call an abstract method
 - Interfaces clash. If an incerface provides a default method and anohter interface provides the same one (default or not), your must resolve the conflict
-- 
+- In java 9 you can have private, private static methods to be called by default or static methods
+
+## Callbacks
+
+- Callback: Action that should happen at some point in the future
 
 # basicstreams package
 - BasicStream.java contains an example of a basic stream using lambda to add the values of a list. <understanded>
